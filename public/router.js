@@ -35,6 +35,11 @@ window.addEventListener('DOMContentLoaded', function() {
     }
   };
 
+  // prototype
+  Router.prototype.getName = function() {
+    return alert('Variable router => ' + this.name + ' (prototype)');
+  };
+
   const myFirstRouter = new Router('myFirstRouter', [
     {
       path: '/',
