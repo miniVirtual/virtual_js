@@ -1,0 +1,21 @@
+body {
+  color: white;
+  margin: 0;
+  min-height: 800px;
+  background-image: url('./mini_framework.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
