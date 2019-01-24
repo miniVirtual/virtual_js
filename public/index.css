@@ -19,3 +19,64 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#virtual, #router {
+  min-height: 150px;
+  width: 100%;
+  background-color: rgba(255,255,255, 0.3);
+  text-align: center;
+}
+
+#virtual {
+  border-radius: 15px 15px 0 0;
+}
+
+#router {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 0 15px 15px;
+}
+
+#view {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#credit {
+  position: fixed;
+  bottom: 0;
+}
+
+h1 {
+  text-shadow: 2px 0 0 #222, -2px 0 0 #222, 0 2px 0 #222,
+  0 -2px 0 #222, 1px 1px #222, -1px -1px 0 #222,
+  1px -1px 0 #222, -1px 1px 0 #222;
+}
+
+h2, #view {
+  text-shadow: 2px 0 0 #333, -2px 0 0 #333, 0 2px 0 #333,
+  0 -2px 0 #333, 1px 1px #333, -1px -1px 0 #333,
+  1px -1px 0 #333, -1px 1px 0 #333;
+}
+
+h3 {
+  text-shadow: 2px 0 0 #222, -2px 0 0 #222, 0 2px 0 #222,
+  0 -2px 0 #222, 1px 1px #222, -1px -1px 0 #222,
+  1px -1px 0 #222, -1px 1px 0 #222;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  border: 1px solid #333;
+}
+
+button:hover {
+  background-color: blue;
+}
